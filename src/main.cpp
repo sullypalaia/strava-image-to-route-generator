@@ -76,6 +76,8 @@ int main() {
                         << "                <ele>50.0</ele>\n"
                         << "                <time>2025-09-01T" << time_s[2] << ":" << time_s[1] << ":" << time_s[0] << "Z</time>\n"
                         << "            </trkpt>\n";
+            
+                ++t;
             }
 
             if (i == contours.size() - 1) {
